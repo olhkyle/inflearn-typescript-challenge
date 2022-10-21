@@ -2,7 +2,6 @@
 // 꼭 유틸리티 타입을 쓰지 않더라도 인터페이스, 제네릭 등의 기본문법으로 타입을 변환할 수 있지만, 더 간결하게 타입을 정의 가능
 
 
-
 // omit : 특정 타입에서 지정된 속성만 제거한 타입을 정의해준다.
 function displayProductDetailWithoutStock(shoppingItem: Omit<Product, 'stock'>){
     return shoppingItem;
