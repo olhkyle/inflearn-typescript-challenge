@@ -3,7 +3,9 @@
         "allowJs": true,
         "target": "ES6",
         "outDir": "./built",
-        "moduleResolution": "Node"
+        "moduleResolution": "Node",
+        "lib": ["ES2021", "DOM","DOM.Iterable"],
+        "noImplicitAny": true,
     },
     "include": ["./src/**/*"]
 }
